@@ -67,6 +67,8 @@ void StereoCamera::calibrateStereoCamera() {
 
 Once you have obtained all the calibration parameters of the camera, we now have to use these params to undistort and rectify the image. The output of this process is a pair of row-rectified images - this means the rows of the left and right image pair coincide with each other. This makes it super easy to compare the corresponding pixels and determine the pixel shift and in turn compute the disparity.
 
+![Stereo rectification](/path/to/img.jpg)
+
 ### Disparity
 
 Once you row-rectify the images using acquired parameters, you have to compute disparity. There are many algorithms to compute disparity, but the popular (and easy) ones are Stereo-Block Matching (SBM) and Stereo-Global Block Matching (SGBM).
@@ -102,7 +104,7 @@ Huzzah! If you made it till here, you've just got started :stuck_out_tongue:. So
 
 ## Authors
 
-* **Lalith nag** - [PurpleBooth](https://github.com/lalithnag)
+* **Lalith nag** - [Github profile](https://github.com/lalithnag)
 
 ## License
 
