@@ -26,7 +26,7 @@ For each of the camera images, we have to perform calibration and acquire the ca
 
 OpenCV has libraries that perform these functions. I have attached a code snippet from the StereoCalibration module, from where you will get an idea of the whole process.
 
-<p>First you need to find corners of the chessboard</p>
+<p>First you need to find corners of the chessboard : </p>
 <pre><code>
 void Camera::extractCorners(const int& board_number, const string& orientation, const int& sub_pixel_window = 12) {
 
@@ -41,7 +41,7 @@ void Camera::extractCorners(const int& board_number, const string& orientation, 
 }
 </code></pre>
 
-<p>Next, you need to calibrate each camera to find out the respective intrinsic and extrinsic params</p>
+<p>Next, you need to calibrate each camera to find out the respective intrinsic and extrinsic params : </p>
 <pre><code>
 void Camera::calibrate() {
 
@@ -52,7 +52,7 @@ void Camera::calibrate() {
 
 Now that we know the params of each camera, we also need to compute how each camera is placed relative to each other, i.e by how much it is translated and rotated with respect to the other camera. This is given by the elementary and fundamental matrix.
 
-<p>The E and F matrix can be computed using the OpenCV function stereoCalibrate</p>
+<p>The E and F matrix can be computed using the OpenCV function stereoCalibrate : </p>
 <pre><code>
 void StereoCamera::calibrateStereoCamera() {
 
@@ -110,5 +110,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* A **huge** thanks to Dr. Sandy Engelhardt, my project guide and mentor for introducing me to Computer Vision and helping me through this project.
+* A **huge** thanks to Dr. Sandy Engelhardt :bow:, my project guide and mentor for introducing me to Computer Vision and helping me through this project.
 * This project was undertaken as part of the course _Computer Assisted Surgeries_ of the *Medical Systems Engineering* course at the *Otto-von-Guericke University*, Magdeburg.
