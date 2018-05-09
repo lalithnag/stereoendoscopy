@@ -93,7 +93,7 @@ Ptr<StereoSGBM> sgbm = StereoSGBM::create(min_disparity, num_disparities, sad_wi
 
 ### 3D Visualisation
 
-Huzzah! If you made it till here, you've just got started :stuck_out_tongue:. So you've managed to get a disparity map, but most probably it is riddled with illumination blobs, speckle noise and false disparities that look super weird when seen in 3D. Needless to say, this is a non-trivial problem and requires application of image processing techniques. I will not get into those in the scope of this project.
+Huzzah! If you made it till here, you've just got started :stuck_out_tongue:. So we've managed to get a disparity map, but most probably it is riddled with illumination blobs, speckle noise and false disparities that look super weird when seen in 3D. Needless to say, this is a non-trivial problem and requires application of image processing techniques. I will not get into those within the scope of this project.
 
 
 ## Built With
