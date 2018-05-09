@@ -14,7 +14,7 @@ Without going into specific details about the clinical application of my project
 
 Stereo-reconstruction contains the following pipeline:
 
-![Stereo pipieline](/path/to/img.jpg)
+![Stereo pipieline](https://github.com/lalithnag/stereoendoscopy/blob/master/stereopipeline.png)
 
 ### Pre-processing
 
@@ -67,7 +67,7 @@ void StereoCamera::calibrateStereoCamera() {
 
 Once you have obtained all the calibration parameters of the camera, we now have to use these params to undistort and rectify the image. The output of this process is a pair of row-rectified images - this means the rows of the left and right image pair coincide with each other. This makes it super easy to compare the corresponding pixels and determine the pixel shift and in turn compute the disparity.
 
-![Stereo rectification](/path/to/img.jpg)
+![Stereo rectification](https://github.com/lalithnag/stereoendoscopy/blob/master/stereorectification.png)
 
 ### Disparity
 
