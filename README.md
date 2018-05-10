@@ -104,9 +104,7 @@ Huzzah! If you made it till here, you've just got started :stuck_out_tongue:. So
 
 ## Authors
 
-* **Lalith nag** - [Github profile](https://github.com/lalithnag)
-* Drop me a line if you want to know more or you're stuck at some place! :-)
-* I will put up more elaborate blog posts soon. Until then, you can email me at lalith.sharan@ovgu.de
+* [Lalith Nag](https://github.com/lalithnag). Drop me a line if you want to know more or you're stuck at some place! :smiley: I will put up more elaborate blog posts soon. Until then, you can email me at lalith.sharan@ovgu.de
 
 ## License
 
