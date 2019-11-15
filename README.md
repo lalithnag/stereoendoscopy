@@ -112,5 +112,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* A **huge** thanks to Dr. Sandy Engelhardt :bow:, my project guide and mentor for introducing me to Computer Vision and helping me through this project.
 * This project was undertaken as part of the course _Computer Assisted Surgeries_ of the *Medical Systems Engineering* course at the *Otto-von-Guericke University*, Magdeburg.
